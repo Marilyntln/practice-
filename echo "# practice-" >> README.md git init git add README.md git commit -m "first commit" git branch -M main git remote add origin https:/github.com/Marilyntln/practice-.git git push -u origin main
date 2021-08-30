@@ -1,0 +1,28 @@
+# Example 1 calculating how much coffee cost based on the weight.
+
+Pounds = int(input('how many pounds of coffee do you want?'))
+if Pounds <= 9:
+    Price = Pounds * 12
+elif Pounds >=10 or Pounds < 20:
+    Price = Pounds * 10
+elif Pounds >= 20 or Pounds < 40:
+    Price = Pounds * 8.75
+elif Pounds >= 40:
+    Price = Pounds * 7.5
+
+print (f'The price is ${Price}.')
+
+#Example 2 
+
+pounds = int(input('How many pounds of coffee do you want?'))
+
+if pounds <= 9:
+    price = pounds *12
+elif pounds <= 20:
+    price = pounds * 10
+elif pounds <= 40:
+    price = pounds *8.75
+elif pounds >= 40:
+    price = pounds * 7.50
+
+print(f'The price is ${price}.')
